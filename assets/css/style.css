@@ -48,3 +48,6 @@ body {
 button,input {
 	border-radius: 0 !important;
 }
+.table-title {
+	align-self: center;
+}
