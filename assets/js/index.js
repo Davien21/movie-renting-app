@@ -1,4 +1,4 @@
-let movie_store = new MovieClass;
+let movie_store = new MovieStore;
 let movies = movie_store.getMovieArray();
 
 let search_btn = document.querySelector('#seach-btn')
@@ -30,8 +30,9 @@ function makeMovieTable (list_array) {
 	});
 	movie_table.innerHTML = movie_list;
 }
-
+//The function below runs on page load and creates the movie table
 makeMovieTable(movies);
+
 function rent (btn) {
 	let movie_row = btn.closest('tr');
 	let movie_name = movie_row.querySelector('.name')

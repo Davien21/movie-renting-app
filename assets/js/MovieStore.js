@@ -1,5 +1,5 @@
-/*Movie Class by Chidiebere Ekennia*/
-class MovieClass {
+/*Movie Store Class by Chidiebere Ekennia*/
+class MovieStore {
 	constructor () {
 		this.movie_array = movie_array;
 		this.store_owner = 'Chidiebere Ekennia'
@@ -29,7 +29,7 @@ class MovieClass {
 			});
 
 		});
-		
+
 		return filtered_array;
 	}
 }
