@@ -15,7 +15,7 @@ let movie_row = (movie_obj,index) => {
 			<td>${movie_obj.genre}</td>
 			<td class="director">${movie_obj.director}</td>
 			<td>
-				<button class="btn btn-success btn-block" onclick ="rent(this)">Rent</button>
+				<button class="btn btn-success btn-block paper-box-shadow" onclick ="rent(this)">Rent</button>
 			</td>
 
 		</tr>

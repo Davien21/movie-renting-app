@@ -1,33 +1,10 @@
 body {
     background-color: #FAEBD7;
 }
-.orange-on-white {
-	color: #FF521B;
-	background-color: #fff;
-}
-.white-on-orange {
-	color: #fff;
-	background-color: #FF521B;
-}
- 
-.text-def-orange {
-	color: #FF521B;
-}
-.def-orange {
-	background-color: #FF521B;
-}
- 
-.paper-box {
-	border-radius: 12px;
-	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
-	background-color: #fff;
-}
 .paper-box-shadow {
 	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
 }
-.material-box {
-	box-shadow: 0px 1.5px 1px 0px #A2ABB1;
-}
+ 
 .btn-orange {
 	color: #fff;
 	background-color: #F7772F;
