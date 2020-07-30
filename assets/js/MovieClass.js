@@ -2,7 +2,6 @@
 class MovieClass {
 	constructor () {
 		this.movie_array = movie_array;
-		// this.movie_array.map((movie) =>{movie.rented = false});
 		this.store_owner = 'Chidiebere Ekennia'
 	}
 	getMovieArray () {
@@ -12,6 +11,7 @@ class MovieClass {
 		string = string.toLowerCase();
 		let movie_array = this.movie_array;
 		let filtered_array = [];
+
 		movie_array.forEach(function(movie_obj) {
 
 			let values_array = Object.values(movie_obj);
@@ -29,8 +29,8 @@ class MovieClass {
 			});
 
 		});
+		
 		return filtered_array;
 	}
 }
 
-// console.log(movie_array);

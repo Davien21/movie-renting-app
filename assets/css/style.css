@@ -1,13 +1,5 @@
-/*body {
+body {
     background-color: #FAEBD7;
-    overflow-wrap: break-word;
-    min-height: 100vh;
-}
-.counter {
-	font-weight: 550;
-	border: 1px solid;
-	padding: 1.5px 8px;
-	border-radius: 50%;
 }
 .orange-on-white {
 	color: #FF521B;
@@ -17,31 +9,14 @@
 	color: #fff;
 	background-color: #FF521B;
 }
-.emphasis {
-	font-weight: 550;
-}
-.cross-text {
-	text-decoration-line: line-through;
-	color: #ABA9A9;
-}
-.tiny-svg {
-	width:30px;
-	height: auto;
-}
-.btn-svg {
-	width: 30px;
-	height: 25px;
-	cursor: pointer;
-}
+ 
 .text-def-orange {
 	color: #FF521B;
 }
 .def-orange {
 	background-color: #FF521B;
 }
-.text-cursor {
-	cursor: text;
-}
+ 
 .paper-box {
 	border-radius: 12px;
 	box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
@@ -63,19 +38,13 @@
 	background-color: #F0950E;
 	border-color: #FF9800;
 }
-.task {
-	padding-right: 5px;
-	width: 100%;
-	border: 0;
-	outline: 0;
-	display: inline-block;
+#movie-content {
+	overflow-x: auto;
+	white-space: nowrap;
 }
-.highlight {
-	color: #495057;
-	border-color: #80bdff;
-	outline: 0;
-	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-	border-radius: 0.25rem;
-	transition: 0.15s ease-in-out;
+.table {
+	margin-bottom: 0 !important;
 }
-*/
+button,input {
+	border-radius: 0 !important;
+}

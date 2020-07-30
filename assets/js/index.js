@@ -4,7 +4,7 @@ let movies = movie_store.getMovieArray();
 let search_btn = document.querySelector('#seach-btn')
 let return_btn = document.querySelector('#return-btn')
 let search_input = document.querySelector('input#movie-input')
-let movie_ = document.querySelector('table#unrented');
+let movie_ = document.querySelector('table#movie-table');
 let movie_table = movie_.querySelector('tbody');
 
 let movie_row = (movie_obj,index) => {
